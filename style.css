@@ -1,0 +1,31 @@
+@import url('./CSS-Component/Base.css');
+@import url('/CSS-Component/Component.css');
+
+
+@media screen and (max-width:1317px){
+    html{
+        font-size: 15px;
+    }
+    .shop-btn{
+        font-size: 18px; 
+    }
+    .search-input{
+        display: none;
+    }
+    .input-container{
+        width: 0%;
+    }
+}
+
+@media screen and (max-width:600px){
+    html{
+        font-size: 13px;
+    }
+}
+
+@media screen and (max-width:500px){
+    html{
+        font-size: 11px;
+    }
+}
+

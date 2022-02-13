@@ -1,0 +1,41 @@
+*{
+    padding:0;
+    margin:0;
+}
+
+:root{
+    --primary-color: rgb(121, 2, 2);
+    --text-color: white; 
+    --container-background-color:rgba(235, 231, 231, 0.486);
+    --Btn-background-color:rgba(128, 128, 128, 0.801);
+}
+
+body{
+    padding:0;
+    margin:0;
+    font-family: 'Roboto', sans-serif;
+    color:var(--alt-text-color);
+}
+
+button{
+    outline:none;
+    border:none;
+    cursor: pointer;
+}
+
+ol,ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    cursor: pointer;
+}
+
+@media screen and (max-width:512px){
+    .logo1{
+        font-size: 9px !important;
+    }
+
+
+}
