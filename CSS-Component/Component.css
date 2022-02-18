@@ -1,0 +1,260 @@
+/* CSS of navigation */
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.main-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 90%;
+}
+
+.nav-body{
+    position: sticky;
+    box-sizing: border-box;
+    width: 100%;
+    top: 0%;
+    z-index: 2;
+    background-color: var(--primary-color);
+    padding: 1rem;
+    margin-bottom: 1rem;
+}
+
+.logo1{
+    background-color: var(--text-color);
+    color:var(--primary-color);
+    font-size: 22px;
+    font-weight: bolder;
+    font-family:monospace;
+    padding: 0.3rem;
+}
+
+.logo2{
+    background-color: var(--primary-color);
+    color: var(--text-color);
+    padding: 1px 6px 0 1px;
+}
+
+.list-col-left{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+    margin: 1rem;
+    
+}
+
+.list-col-right{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: auto;
+    width: 14rem;
+}
+
+.badge{
+    display: flex;
+    position: relative;
+    padding: 0.6rem ;
+}
+
+.icons{
+    font-size: 18rem;
+}
+
+.Badge1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    background-color: var(--text-color);
+    color: var(--primary-color);
+    border:1px solid var(--primary-color);
+    font-size: 10px;
+    width: 1rem;
+    height: 1rem;
+    border-radius: 50%;
+    top: 0%;
+    right: 0%;
+}
+
+.atribute{
+    color: var(--text-color);
+    font-size: larger;
+}
+
+.login-btn{
+    background-color: var(--text-color);
+    color: var(--primary-color);
+    font-weight: bold;
+    padding: 0.1rem;
+}
+
+.input-container{
+    width: 35%;
+    margin-left: auto;
+}
+
+.search-input{
+    width: 80%;
+    border-radius: 0.5rem;
+    padding: 0.5rem;
+}
+
+.searchBtn{
+    font-size: large;
+    background-color: var(--primary-color);
+    color: var(--text-color);
+}
+
+
+/* CSS of side bar  */
+.side-bar{
+    width: 12rem;
+}
+
+.heading{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 2rem 0;
+}
+
+h3{
+    margin: 1rem 0;
+}
+
+.slide-input{
+    display: flex;
+    justify-content: space-between;
+    color: gray;
+}
+
+.range-input{
+    width: 100%;
+    margin-bottom: 2rem;
+}
+
+.checkbox-input{
+    margin: 0 0 1rem;
+}
+
+.rating-input{
+    margin: 0 0 1rem;
+}
+
+.short-input{
+    width: 1rem;
+    margin: 0 0 1rem;
+}
+
+/* CSS of top section */
+
+
+.top-container{
+    display: flex;
+    justify-content: space-between; 
+}
+
+.top-contains{
+    position: relative;
+    border: 2px solid rgb(204, 202, 202);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 19%;
+    height: 25vh;   
+}
+
+.topContain-Img{
+    width: 100%;
+    height: 100%;
+}
+
+.topContain-text{
+    position: absolute;
+    left: 0;
+    box-sizing: border-box;
+    text-align: center;
+    background-color: white;
+    width: 100%;
+    padding: 0.5rem;
+}
+
+/* CSS of middle section */
+.middle-container{
+    position: relative;
+    margin-top: 1rem;
+    width: 100%;
+    height: 70vh;
+}
+
+.middleContain-Img{
+    height: 70vh;
+    width: 100%;
+}
+
+.shop-btn{
+    color: var(--text-color);
+    background-color: var(--primary-color);
+    padding: 0.2rem;
+    margin: 0.3rem;
+}
+
+.heading-text{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    position: absolute;
+    width: 22rem;
+    text-align: center;
+    color: rgb(19, 16, 16);
+    right: 9%;
+    top: 10%;
+    background-color: rgba(128, 128, 128, 0.658);
+}
+
+/* CSS of middle section 2 */
+.middle-container2{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.middleContainer1-items1{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    border: 2px solid gray;
+    width: 42rem;
+    margin-top: 2rem;
+}
+
+.middleContainer1-Img{
+    width: 50%;
+    margin: 0.6rem;
+    border-radius: 0.5rem;
+}
+
+.heading-text2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-content: space-around;
+    text-align: center;
+    width: 42%;
+    height: 100%;
+}
+
+.card-link{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+
+
