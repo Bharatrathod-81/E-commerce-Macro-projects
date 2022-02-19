@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MARVEL Fashion</title>
+    <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="Cart.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <!--Body of  Navigation bar -->
+    <nav class="nav-body">
+        <ul class="list-col-left">
+            <li><a class="logo1" href="/index.html">MARVEL<span class="logo2"> Fashion</span></a></li>
+            <li class="atribute input-container">
+                <input class="search-input" type="text" placeholder="Search">
+                <button class="searchBtn"><i class="fa fa-search"></i></button>
+            </li>
+            <ul class="list-col-right">
+                <li><a class="atribute login-btn" href="/Login/Login.html">Logout</a></li>
+                <li><a class="atribute badge" href="/Wishlist/Wishlist.html">
+                        <div><i class="fa fa-heart-o"></i></div>
+                        <div class="Badge1">2</div>
+                </a></li>
+                <li><a class="atribute badge" href="/Product-Listing-Page/Listing-page.html">
+                        <div><i class="fa fa-shopping-cart"></i></div>
+                        <div class="Badge1">2</div>
+                </a></li>
+                <li><a class="atribute badge" href="/my cart/Cart.html">
+                    <div >Cart</div>
+                </a></li>
+            </ul>
+        </ul>
+    </nav>
+    <!-- Body of container -->
+    <div class="productMain-container">
+        <!-- Body of side bar -->
+        <div class="product-container">
+            <div class="container-heading">
+                <h4>Showing All Products</h4>
+                <p>( Showing 20 products )</p>
+            </div>
+            <div class="products">
+                <div class="cards">
+                    <img class="card-Img" src="/images/project-product.jpg">
+                    <div class="card-text">
+                        <small class="card-tex">Men Premium jacket</small>
+                        <h3>$300 <span class="max-price"> $600</span></h3>
+                        <span class="discount-text">50% off</span>
+                        <div class="product-quantity">
+                            <small>Quantity</small>
+                            <button class="QuantityIncrease-Btn">+</button>
+                            <small class="quantity-num">1</small>
+                            <button class="QuantityIncrease-Btn">-</i></button>
+                        </div>
+                        <a href="/my cart/Cart.html" class="card-link"><button class="card-Btn">Add to Cart</button></a>
+                        <a href="/Wishlist/Wishlist.html" class="card-link"><button class="card-Btn1">Save to Wishlist</button></a>
+                    </div>
+                </div>
+                <div class="price-details">
+                    <h5>PRICE DETAILS</h5>
+                    <hr>
+                    <div class="price-cal">
+                        <div>
+                            <p>Price(2 items)</p>
+                            <p>Discount</p>
+                            <p>Delivery Charges</p>
+                        </div>
+                        <div>
+                            <p>$600</p>
+                            <p>-$300</p>
+                            <p>$300</p>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="total-amt">
+                        <h5>TOTAL AMOUNT</h5>
+                        <h5>$300</h5>
+                    </div>
+                    <hr>
+                    <small>You Will Save $300 on this order</small>
+                    <a href="" class="card-link"><button class="place-orderBtn">PLACE ORDER</button></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

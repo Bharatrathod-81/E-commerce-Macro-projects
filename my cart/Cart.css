@@ -1,0 +1,129 @@
+.productMain-container{
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    width: 90%;
+
+}
+
+
+.product-container{
+    background-color: var(--container-background-color);
+    width: 100%;
+}
+
+.container-heading{
+    display: flex;
+    margin: 1rem;
+}
+
+.products{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 2rem;
+}
+
+.cards{
+    border: 2px solid gray;
+    background-color: white;
+    width: 35rem;
+    height: 15rem;
+    display: flex;
+    flex-direction: row;
+}
+
+.card-text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 60%;
+}
+
+.card-Img{
+    width: 40%;
+    height: 100%;
+}
+
+.max-price{
+    color: gray;
+    font-size: larger;
+    text-decoration :line-through;
+}
+
+.discount-text{
+    color: gray;
+    font-size: larger;
+}
+
+.card-Btn{
+    background-color: var(--Btn-background-color);
+    padding: 0.6rem;
+    margin-bottom: 0.4rem;
+    width: 90%;
+}
+
+.card-Btn1{
+    width: 90%;
+    margin-bottom: 0.1rem;
+    padding: 0.6rem;
+    background-color: var(--Btn-background-color);
+}
+
+.card-Btn:hover,
+.card-Btn:focus,
+.card-Btn1:hover,
+.card-Btn1:focus,
+.place-orderBtn:hover,
+.place-orderBtn:focus{
+    background-color: var(--primary-color);
+    color:var(--text-color);
+}
+
+.price-cal,
+.total-amt{
+    display: flex;
+    justify-content: space-between;
+}
+
+.price-details{
+    border: 2px solid gray;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color: white;
+    width: 15rem;
+    height: 16rem;
+    margin: 1rem;
+    padding: 1rem;   
+}
+
+.product-quantity{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 50%;
+    height: 2.8rem;
+}
+
+.QuantityIncrease-Btn{
+    font-size: larger;
+    font-weight: bolder;
+    width: 1.3rem;
+    height:1.3rem;
+    border-radius: 50%;
+}
+
+.quantity-num{
+    text-align: center;
+    border: 1px solid gray;
+    width: 2rem;
+    height: 1rem;
+}
+
+
+.place-orderBtn{
+    padding: 0.5rem;
+    background-color: var(--Btn-background-color);
+}
